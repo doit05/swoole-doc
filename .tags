@@ -1,0 +1,5 @@
+fp	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_client.php	/^$fp = stream_socket_client("tcp:\/\/127.0.0.1:8000", $errno, $errstr, 30);$/;"	variable	line:2
+serv	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_server.php	/^$serv = stream_socket_server("tcp:\/\/0.0.0.0:8000",$errcode, $errstr)$/;"	variable	line:2
+conn	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_server.php	/^    $conn = stream_socket_accept($serv);$/;"	variable	line:9
+request	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_server.php	/^        $request = fread($conn);$/;"	variable	line:11
+response	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_server.php	/^        $response = 'hello';$/;"	variable	line:12

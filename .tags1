@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+serv	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_server.php	/^$serv = stream_socket_server("tcp:\/\/0.0.0.0:8000",$errcode, $errstr)$/;"	variable	line:2
+conn	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_server.php	/^    $conn = stream_socket_accept($serv);$/;"	variable	line:9
+request	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_server.php	/^        $request = fread($conn);$/;"	variable	line:11
+response	/Users/doit/programeyard/PHP/swoole-doc/study/stream_socket_server.php	/^        $response = 'hello';$/;"	variable	line:12
